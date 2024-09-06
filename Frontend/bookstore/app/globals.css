@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  padding-top: 30px;
+  gap: 30px 20px;
+}
+
+.card-title{
+  margin-right: 20px;
+  max-width: 80%;
+  white-space: normal;
+}
+
+.card-price{
+  font-size: 20px;
+  line-height: 260px;
+  font-weight: 600;
+}
+
+.card-button{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.book-modal{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
